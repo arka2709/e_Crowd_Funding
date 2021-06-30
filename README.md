@@ -13,4 +13,10 @@ E-Crowd Funding is an android online application which can be primarily used by 
 
 ![Screenshot_20200804-130155](https://user-images.githubusercontent.com/47076178/123952769-17243b80-d9c4-11eb-8180-2fc17bb881cf.jpg)
 
-https://drive.google.com/file/d/1Cyze5Mb9OIAGauf-tMGvCqCqrM7nsNYB/view?usp=drivesdk
+Access Demo Videos:
+
+https://drive.google.com/file/d/1Cyze5Mb9OIAGauf-tMGvCqCqrM7nsNYB/view?usp=sharing
+
+https://drive.google.com/file/d/1DF9Zcz6GRXFMEm6UnmIBnfexc33WBhgJ/view?usp=sharing
+
+Investing Tour: https://drive.google.com/file/d/1DaVlgZ5UUiK36hRggR0CPz5sMBC9ogl6/view?usp=sharing
