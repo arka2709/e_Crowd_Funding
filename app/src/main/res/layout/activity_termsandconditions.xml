@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".termsandconditions">
+
+    <TextView
+        android:id="@+id/labeltandc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="Terms and Conditions"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tadndcpoints"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/labeltandc"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/tvdocreqd"
+        android:layout_centerHorizontal="true"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tadndcpoints"
+        android:layout_marginTop="13dp"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"
+        android:text="Documents required:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"/>
+
+    <RadioGroup
+        android:id="@+id/rdGroup"
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/tvdocreqd"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/blicense"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text=" 1. Registration Documents" />
+
+        <RadioButton
+            android:id="@+id/owndoc"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text=" 2. Address proof" />
+
+        <RadioButton
+            android:id="@+id/cBrochure"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text=" 3. Company Brochure" />
+
+        <RadioButton
+            android:id="@+id/cfinance"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text=" 4. Balance Sheet" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Tvdoc_desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/rdGroup"
+        android:layout_marginTop="15dp"
+        android:background="@color/cardview_light_background"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

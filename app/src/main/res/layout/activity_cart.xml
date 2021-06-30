@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActiv">
+
+
+        <TextView
+        android:id="@+id/total"
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="175dp"
+        android:textStyle="bold"
+        android:text="Rs.0"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="20dp"/>
+
+    <TextView
+
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:text="  Total Investment:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerCart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/total"/>
+
+
+
+</RelativeLayout>

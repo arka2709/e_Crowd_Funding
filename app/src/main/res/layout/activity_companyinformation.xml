@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/print"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MidnightBlue"
+    tools:context=".companyinformation">
+
+    <ImageView
+        android:id="@+id/imgsinglview_info"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:scaleType="fitXY"
+        android:src="@drawable/startact" />
+
+    <TextView
+        android:id="@+id/txt_compname"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imgsinglview_info"
+        android:layout_marginTop="10dp"
+        android:text="  Company Name:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/tvcopname_info"
+        android:layout_width="255dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imgsinglview_info"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tvcompdesc_info"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tvcopname_info"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/sloginterest"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/tvcompdesc_info"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="10dp"
+        android:text=" Interest Rate:"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/txtprice"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tvcompdesc_info"
+        android:layout_marginTop="10dp"
+        android:text="  Fund Price:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tvprice"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvcompdesc_info"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/tvinteres"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvcompdesc_info"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtfundtargt"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tvinteres"
+        android:layout_marginTop="10dp"
+        android:text="  Fund Target:"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/txttenure"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tvphone"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text="     Tenure:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/fundtg"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tvinteres"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14dp"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/fundduration"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tvphone"
+        android:layout_marginLeft="292dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/add_cart"
+        android:layout_alignParentBottom="true"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:background="@color/Gold"
+        android:text="Invest"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etquantity"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/checkDoc"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint=" Enter Number of Units"
+        android:inputType="number"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHint="@color/cardview_light_background"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/docs"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtfundtargt"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:text="Legal Documents"
+        android:textColor="@color/MidnightBlue"/>
+
+    <Button
+        android:id="@+id/btraised"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txttenure"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:text="Fund Raised"
+        android:textColor="@color/MidnightBlue" />
+
+    <CheckBox
+        android:id="@+id/checkDoc"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/docs"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:buttonTint="@color/cardview_light_background"
+        android:text="Read Legal Documents?"
+        android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/sloginterest"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+       android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+
+</RelativeLayout>

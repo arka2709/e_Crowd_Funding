@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".investorDone">
+
+    <TextView
+        android:id="@+id/ilabelDone"
+        android:layout_marginTop="106dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="24dp"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idfhome"
+            android:layout_height="match_parent"
+            android:layout_width="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/homeicon" />
+            <TextView
+                android:layout_marginTop="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Home"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textColor="@color/MidnightBlue"
+                android:textStyle="bold"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idfsignout"
+            android:layout_height="match_parent"
+            android:layout_width="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/signout" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="80dp"
+                android:text="Log Out"
+                android:textAlignment="center"
+                android:textColor="@color/MidnightBlue"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="80dp"
+        android:layout_marginTop="540dp"
+        android:background="@color/MidnightBlue"
+        android:gravity="center"
+        android:text="Think Investment, Choose E-Crowd"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

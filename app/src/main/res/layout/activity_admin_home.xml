@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MidnightBlue"
+    tools:context=".adminHome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/Gold"
+        android:text="Welcome Admin"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/MidnightBlue"/>
+
+    <GridLayout
+        android:layout_width="310dp"
+        android:layout_height="315dp"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnRequest"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/companymode"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="130dp"
+                android:text="Company Requests"
+                android:textAlignment="center"
+                android:textColor="@color/MidnightBlue"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnInvestorRequest"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/investor"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="130dp"
+                android:text="Investor Requests"
+                android:textAlignment="center"
+                android:textColor="@color/MidnightBlue"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnvcompanies"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/verifiedcompanyicon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="130dp"
+                android:text="Verified Companies"
+                android:textAlignment="center"
+                android:textColor="@color/MidnightBlue"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnvinvestors"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/verifiedinvestoricon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="130dp"
+                android:text="Verified Investors"
+                android:textAlignment="center"
+                android:textColor="@color/MidnightBlue"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnadlogout"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:src="@drawable/signout"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="130dp"
+            android:text="Sign Out"
+            android:textAlignment="center"
+            android:textColor="@color/MidnightBlue"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recieptActivity">
+
+
+    <TextView
+        android:id="@+id/tccustid"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/ReceiptSlogan"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tccustname"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tccustid"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/generatePDF"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="540dp"
+        android:background="@color/Blue"
+        android:text="Generate Receipt"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/tcname"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tccustid"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="35dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ecrowdSlogan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/Blue"
+        android:gravity="center"
+        android:text="E-Crowd Funding"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/ReceiptSlogan"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Transaction Receipt"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@+id/contactSlogan"/>
+
+    <TextView
+        android:id="@+id/contactSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:text="Contact Us:"
+        android:layout_below="@+id/ecrowdSlogan"
+        />
+
+    <TextView
+        android:id="@+id/emailSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_below="@+id/ecrowdSlogan"
+        android:layout_marginLeft="68dp"
+        android:textStyle="bold"
+        android:text="email:E-CrowdInvestment@yahoo.com"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/PhoneSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_below="@+id/emailSlogan"
+        android:layout_marginLeft="68dp"
+        android:textStyle="bold"
+        android:text="Phone: +919706870287"
+        android:textSize="12dp" />
+
+    <TextView
+    android:id="@+id/custIdSlogan"
+    android:layout_width="140dp"
+    android:layout_height="30dp"
+    android:layout_below="@+id/ReceiptSlogan"
+    android:layout_marginTop="10dp"
+    android:text="   Customer ID:"
+    android:textSize="18dp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/custNameSlogan"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/custIdSlogan"
+        android:layout_marginTop="5dp"
+        android:text="   Customer Name:"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/companySlogan"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/custIdSlogan"
+        android:layout_marginTop="35dp"
+        android:text="    Fund Name:"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/priceSlogan"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/interestSlogan"
+        android:layout_marginTop="5dp"
+        android:text="  Fund price: "
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalSlogn"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/priceSlogan"
+        android:layout_marginTop="5dp"
+        android:text="       Total:"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dateSlogn"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/totalSlogn"
+        android:text="       Date:"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:id="@+id/tcdate"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tctotal"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp" />
+
+    <TextView
+        android:id="@+id/tprice"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/interestSlogan"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp" />
+
+    <TextView
+        android:id="@+id/tctotal"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tprice"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100dp" />
+
+    <TextView
+        android:id="@+id/qtySlogan"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tcrate"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="210dp"
+        android:text="  Quantity:"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tenureSlogan"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/qtySlogan"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="218dp"
+        android:text=" Tenure:"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/timeSlogan"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tenureSlogan"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="210dp"
+        android:text="   Time:"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/interestSlogan"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/companySlogan"
+        android:layout_marginTop="5dp"
+        android:text="  Interest Rate:"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tctenure"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tcqty"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text=""
+        android:layout_marginLeft="298dp" />
+
+    <TextView
+        android:id="@+id/tctime"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tctenure"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:layout_marginLeft="266dp" />
+
+    <TextView
+        android:id="@+id/tcrate"
+        android:layout_width="146dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tcname"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text=""
+        android:layout_marginLeft="150dp" />
+
+
+    <TextView
+        android:id="@+id/tcqty"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tcrate"
+        android:layout_marginTop="5dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="290dp" />
+
+    <TextView
+        android:id="@+id/maturitySlogn"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dateSlogn"
+        android:layout_marginTop="10dp"
+        android:text="  Amount after maturity:"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/maturityamtSpace"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dateSlogn"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/maturityDateSlogn"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/maturitySlogn"
+        android:layout_marginTop="10dp"
+        android:text="     Date of maturity:"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/maturityDateSpace"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/maturityamtSpace"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+
+
+
+</RelativeLayout>

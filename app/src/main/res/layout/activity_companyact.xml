@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".companyact">
+
+    <ImageView
+        android:id="@+id/image_add"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_image" />
+
+    <Button
+        android:id="@+id/comacback"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backiconblack"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/imageFilename"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/image_add"
+        android:layout_marginTop="2dp"
+        android:textSize="10dp"
+        android:textColor="@color/Black"
+        android:text="Tap on the above Picture to select an Image File"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageFilename"
+        android:hint="Company Name"
+        android:textColorHint="@color/Black"
+        android:id="@+id/etcompany_name"
+        android:layout_marginTop="13dp"
+        />
+
+    <EditText
+        android:id="@+id/comp_description"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/etcompany_name"
+        android:layout_marginTop="13dp"
+        android:hint="Company Description"
+        android:textColorHint="@color/Black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColorHint="@color/Black"
+        android:layout_below="@+id/comp_description"
+        android:id="@+id/etphone"
+        android:hint="Company Phone Number"
+        android:layout_marginTop="13dp"
+        android:inputType="number"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etphone"
+        android:id="@+id/roi"
+        android:hint="Interest rate offered per year"
+        android:textColorHint="@color/Black"
+        android:layout_marginTop="13dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/roi"
+        android:id="@+id/fund_target"
+        android:layout_marginTop="13dp"
+        android:hint="Fund Raising Target Rs."
+        android:textColorHint="@color/Black"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/fund_target"
+        android:id="@+id/price_share"
+        android:hint="Price per unit  Rs."
+        android:textColorHint="@color/Black"
+        android:inputType="number"
+        />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_below="@+id/editTenure"
+        />
+
+    <Button
+        android:id="@+id/Addbt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_background"
+        android:text="Submit Details"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/editTenure"
+        android:layout_below="@id/price_share"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Tenure in Years"
+        android:textColorHint="@color/Black"
+        android:inputType="number"
+        android:layout_marginTop="13dp"
+        />
+
+    <TextView
+        android:id="@+id/tandc"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:text="Terms and Conditions"
+        android:textSize="9dp"
+        android:background="@color/MidnightBlue"
+        android:textColor="@color/cardview_light_background"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/check"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:textSize="7dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/tandc"
+        android:text="Read T and C?"
+        />
+
+
+</RelativeLayout>

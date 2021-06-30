@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uploadcdocs2">
+
+
+    <Button
+        android:id="@+id/updback2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:background="@drawable/backiconblack"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="62dp"/>
+
+
+    <TextView
+        android:id="@+id/tvaddoc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/MidnightBlue"
+        android:gravity="center"
+        android:text="Upload Company Address Proof"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pathaddoc"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tvaddoc"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/chooseaddoc"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/pathaddoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/MidnightBlue"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:text="Choose File"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/upldaddoc"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/chooseaddoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@color/MidnightBlue"
+        android:drawableLeft="@android:drawable/stat_sys_upload"
+        android:text="Upload File"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/prograd"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/upldaddoc"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginTop="9dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/prograd"
+        android:layout_centerHorizontal="true"
+        android:text="Step: 3 of 5"
+        android:textSize="18dp"
+        android:textColor="@color/Black"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:background="#D4AF37"
+        android:gravity="center"
+        android:text="Upload PDF file for Telephone Bill/ Lease agreement/ Electricity Bill/Trade license /Sales Tax certificate"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

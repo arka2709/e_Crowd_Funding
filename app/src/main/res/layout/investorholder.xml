@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="104dp"
+    android:background="@color/MidnightBlue">
+
+    <ImageView
+        android:id="@+id/ttimgid"
+        android:layout_width="100dp"
+        android:layout_height="104dp" />
+
+    <TextView
+        android:id="@+id/ttInvestorName"
+        android:layout_width="95dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="100dp"
+        android:text="  Investor Name:"
+        android:textColor="@color/White"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ttInvestorNamespc"
+        android:layout_width="210dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="195dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ttInvestorGender"
+        android:layout_width="95dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/ttInvestorName"
+        android:layout_marginLeft="100dp"
+        android:text="         Gender:"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ttInvestorGenderspc"
+        android:layout_width="210dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/ttInvestorNamespc"
+        android:layout_marginLeft="195dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ttInvestordob"
+        android:layout_width="95dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/ttInvestorGender"
+        android:layout_marginLeft="100dp"
+        android:text="          DOB:"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ttInvestordobspc"
+        android:layout_width="210dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/ttInvestorGenderspc"
+        android:layout_marginLeft="195dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ttInvestoremail"
+        android:layout_width="95dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/ttInvestordob"
+        android:layout_marginLeft="100dp"
+        android:text="  Investor Email:"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/ttInvestoremailspc"
+        android:layout_width="210dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/ttInvestordobspc"
+        android:layout_marginLeft="195dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White" />
+
+
+</RelativeLayout>

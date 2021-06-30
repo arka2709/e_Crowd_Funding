@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/MidnightBlue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".companyprofileactivity">
+
+    <ImageView
+        android:id="@+id/cp_imgsinglview_info"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:scaleType="fitXY"
+        android:src="@drawable/startact" />
+
+    <TextView
+        android:id="@+id/cp_txt_compname"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/cp_imgsinglview_info"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Company Name:"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/cp_tvcopname_info"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/cp_imgsinglview_info"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/cp_tvcompdesc_info"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/cp_tvcopname_info"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/cp_sloginterest"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/cp_tvcompdesc_info"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="10dp"
+        android:text="Interest Rate:"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_txtprice"
+        android:layout_width="80dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/cp_tvcompdesc_info"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" Fund Price:"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_tvprice"
+        android:layout_width="82dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/cp_tvcompdesc_info"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_tvinteres"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/cp_tvcompdesc_info"
+        android:layout_marginLeft="272dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_txtfundtargt"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_tvinteres"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Fund Target:"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_fundtg"
+        android:layout_width="82dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_tvinteres"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/cp_txttenure"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_tvinteres"
+        android:layout_marginLeft="182dp"
+        android:layout_marginTop="10dp"
+        android:text="       Tenure:"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/cp_fundduration"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_tvinteres"
+        android:layout_marginLeft="272dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/btcreq_docs"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/cp_email_Space"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:text="Legal Documents"
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/cp_phone"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_txtfundtargt"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="  Phone No:"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_phSpace"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_fundtg"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_email"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_phone"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="     Email:"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cp_email_Space"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/cp_phSpace"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background" />
+
+</RelativeLayout>

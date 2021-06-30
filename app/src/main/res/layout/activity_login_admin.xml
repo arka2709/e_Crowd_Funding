@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MidnightBlue"
+    tools:context=".Adminlogin">
+
+
+    <ImageView
+        android:id="@+id/ivic"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ecdlogo"
+        android:elevation="10dp"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_below="@+id/ivic"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:foregroundTint="#fff"
+        android:backgroundTint="#fff" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_below="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:foregroundTint="#fff"
+        android:backgroundTint="#fff"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnLoginad"
+        android:layout_below="@id/etpassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_background"
+        android:text="Login As Admin"
+        android:textColor="@color/MidnightBlue"/>
+
+</RelativeLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".investorProfile">
+
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_below="@+id/tvmyprofile"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text=" Investor Name:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/MidnightBlue"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/mynamespace"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tvmyprofile"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mydob"
+        android:layout_below="@+id/myname"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="  Date of Birth:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/mydobspace"
+        android:layout_below="@+id/mynamespace"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mygender"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/mydob"
+        android:layout_marginTop="5dp"
+        android:text="    Gender:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mygenderspace"
+        android:layout_below="@+id/mydobspace"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myphone"
+        android:layout_below="@+id/mygender"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:text="   Phone No:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/myphonespace"
+        android:layout_below="@+id/mygenderspace"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myEmail"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/myphone"
+        android:layout_marginTop="5dp"
+        android:text="    Email ID:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myEmailspace"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/myphonespace"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/mybankno"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/myEmail"
+        android:layout_marginTop="5dp"
+        android:text=" Bank A/C No:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mybanknospace"
+        android:layout_below="@+id/myEmailspace"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myifsc"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/mybankno"
+        android:layout_marginTop="5dp"
+        android:text="  IFSC Code:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myifscspace"
+        android:layout_below="@+id/mybanknospace"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mykyctype"
+        android:layout_below="@+id/myifsc"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/MidnightBlue"
+        android:gravity="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnviewmkyc"
+        android:layout_below="@+id/mykyctype"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonblue"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View KYC Image"
+        android:textColor="@color/White"
+        android:textSize="14dp" />
+
+
+
+    <Button
+        android:id="@+id/btnmypan"
+        android:layout_below="@+id/btnviewmkyc"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonblue"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View PAN Image"
+        android:textColor="@color/White"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tvmyprofile"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/MidnightBlue"
+        android:text="Investor Profile"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:textAlignment="center"/>
+
+
+
+</RelativeLayout>

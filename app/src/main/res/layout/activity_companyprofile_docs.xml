@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".companyprofileDocs">
+
+    <TextView
+        android:id="@+id/cpdchklabel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="View Documents"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/cpdviewownDoc"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/cpdchklabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="1. Registration Documents"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cpdbtnviewod"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/cpdviewownDoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/cpdviewSDoc"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/cpdbtnviewod"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="2. Address Proof"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cpdbtnviewsd"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/cpdviewSDoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/cpdviewBrocDoc"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/cpdbtnviewsd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="3. Company Brochure"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cpdbtnviewbrd"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/cpdviewBrocDoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/cpdviewFinDoc"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/cpdbtnviewbrd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="4. Company Balance Sheet"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cpdbtnviewFin"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/cpdviewFinDoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background" />
+
+
+
+</RelativeLayout>

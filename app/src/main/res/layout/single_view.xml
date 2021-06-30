@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="132dp"
+    android:background="@color/MidnightBlue">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/cardview_light_background"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/imgsinglview"
+        android:layout_width="100dp"
+        android:layout_height="128dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/startact" />
+
+    <TextView
+        android:id="@+id/fundprSlogan"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/sloganx"
+        android:layout_marginLeft="100dp"
+        android:text="    Fund Price:"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fundPice_db"
+        android:layout_below="@id/tvcopname"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="220dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fundInterest_db"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/fundPice_db"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fundTenure_db"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="220dp"
+        android:layout_below="@+id/fundInterest_db"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TenureprSlogan"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/interestprSlogan"
+        android:layout_marginLeft="100dp"
+        android:text="   Tenure In Year:"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/interestprSlogan"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/fundprSlogan"
+        android:layout_marginLeft="100dp"
+        android:text="   Interest Rate:"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sloganx"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="100dp"
+        android:text=" Company Name: "
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/tvcopname"
+        android:layout_width="190dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="220dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

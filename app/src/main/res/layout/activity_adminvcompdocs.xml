@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminvcompdocs">
+
+
+    <TextView
+        android:id="@+id/adcLabelinfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="View Documents"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/adcviewownDocinfo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/adcLabelinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="1. Registration Documents"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/adcbtnviewodinfo"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/adcviewownDocinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/adcviewSDocinfo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/adcbtnviewodinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="2. Address Proof"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/adcbtnviewsdinfo"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/adcviewSDocinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/adcviewBrocDocinfo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/adcbtnviewsdinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="3. Company Brochure"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/adcbtnviewbrdinfo"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/adcviewBrocDocinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/adcviewFinDocinfo"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/adcbtnviewbrdinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="4. Company Financials"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/adcbtnviewFininfo"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/adcviewFinDocinfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Document"
+        android:textColor="@color/cardview_light_background" />
+
+
+
+
+
+</RelativeLayout>

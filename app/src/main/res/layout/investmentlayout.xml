@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="162dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/DarkGray"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/ivilimg"
+        android:layout_width="80dp"
+        android:layout_height="160dp" />
+
+
+    <TextView
+        android:id="@+id/ilacname"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="  Company Name:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilacnamespc"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilacemail"
+        android:layout_below="@+id/ilacname"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="  Company Email:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilacemailspc"
+        android:layout_below="@id/ilacnamespc"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilainterest"
+        android:layout_below="@+id/ilacemail"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="     Interest Rate:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilainterestspc"
+        android:layout_below="@+id/ilacemailspc"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilainvestment"
+        android:layout_below="@+id/ilainterest"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="     Investment:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilainvestmentspc"
+        android:layout_below="@+id/ilainterestspc"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilatenure"
+        android:layout_below="@+id/ilainvestment"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="        Tenure:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilatenurespc"
+        android:layout_below="@+id/ilainvestmentspc"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/iladate"
+        android:layout_below="@+id/ilatenure"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text=" Investment Date:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/iladatespc"
+        android:layout_below="@+id/ilatenurespc"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilamatudate"
+        android:layout_below="@+id/iladate"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="     Maturity Date:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilamatudatespc"
+        android:layout_below="@+id/iladate"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/ilamatuamnt"
+        android:layout_below="@+id/ilamatudate"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="  Maturity Amount:"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ilamatuamtspc"
+        android:layout_below="@+id/ilamatudatespc"
+        android:layout_width="230dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="11dp"
+        android:textColor="@color/MidnightBlue"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+</RelativeLayout>

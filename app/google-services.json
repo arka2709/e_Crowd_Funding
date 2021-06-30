@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "775718789162",
+    "firebase_url": "https://ecrowdlogin.firebaseio.com",
+    "project_id": "ecrowdlogin",
+    "storage_bucket": "ecrowdlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775718789162:android:d792a8725875d8b36be353",
+        "android_client_info": {
+          "package_name": "com.example.e_crowd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775718789162-s2djb2qfpu3qmk7e2r15le4s12no3tih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6dKNzdJvMmt4MV4Wql8MU9-bzX3cvRPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775718789162-s2djb2qfpu3qmk7e2r15le4s12no3tih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

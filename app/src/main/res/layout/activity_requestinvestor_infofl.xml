@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestinvestorInfofl">
+
+    <TextView
+        android:id="@+id/iinfosloganfl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Investor Information"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:background="@color/MidnightBlue"
+        android:textColor="@color/White"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/textiNamefl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/iinfosloganfl"
+        android:layout_marginTop="5dp"
+        android:text=" Investor Name:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textiNamespcfl"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/iinfosloganfl"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textigenderfl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textiNamefl"
+        android:layout_marginTop="5dp"
+        android:text=" Investor Gender:"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textigenderspcfl"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textiNamefl"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="131dp"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/textidobfl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textigenderfl"
+        android:layout_marginTop="5dp"
+        android:text=" Date of Birth:"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textidobspcspcfl"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textigenderspcfl"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="131dp"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/textiEmailfl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textidobfl"
+        android:layout_marginTop="5dp"
+        android:text=" Investor Email:"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textiEmailspcfl"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textidobspcspcfl"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textikyctypefl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textiEmailfl"
+        android:layout_marginTop="5dp"
+        android:text=" KYC Uploaded:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textikycpcfl"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textiEmailspcfl"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="131dp"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/textibacttfl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textikycpcfl"
+        android:layout_marginTop="5dp"
+        android:text=" Bank Account No:"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textibaactflspc"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textikycpcfl"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textiifscfl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textibacttfl"
+        android:layout_marginTop="5dp"
+        android:text=" IFSC Code:"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textiifscspcfl"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textibaactflspc"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textiphonefl"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textiifscfl"
+        android:layout_marginTop="5dp"
+        android:text=" Mobile No:"
+        android:textSize="15dp"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textiiphonespcfl"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textiifscspcfl"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnviewKyc"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textiphonefl"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonblue"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View KYC Image"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/btnviewPan"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnviewKyc"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonblue"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:text="View Pan Image"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/btnaprvInv"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnviewPan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonblue"
+        android:drawableLeft="@drawable/ticks"
+        android:text="Approve"
+        android:textColor="@color/White" />
+
+    <Button
+        android:id="@+id/btnrejectInv"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnviewPan"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonblue"
+        android:drawableLeft="@drawable/crosss"
+        android:text="Reject"
+        android:textColor="@color/White" />
+
+
+</RelativeLayout>

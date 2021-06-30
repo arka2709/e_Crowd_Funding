@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emailtoinvestor">
+
+    <TextView
+        android:id="@+id/inotififySlogan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" Send Email Notification"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:background="@color/MidnightBlue"
+        android:textColor="@color/White"
+        />
+    <TextView
+        android:layout_below="@id/inotififySlogan"
+        android:id="@+id/itoinv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" To:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="28dp"
+        />
+
+    <TextView
+        android:id="@+id/itoinvemail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/itoinv"
+        android:layout_marginTop="10dp"
+        android:textSize="12dp"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:layout_below="@id/itoinvemail"
+        android:id="@+id/isubject"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" Subject:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="28dp"
+        />
+
+    <TextView
+        android:layout_below="@+id/isubject"
+        android:id="@+id/itosubj"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/MidnightBlue"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_below="@id/itosubj"
+        android:id="@+id/imsg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" Message:"
+        android:textSize="28dp"
+        android:textColor="@color/MidnightBlue"
+        />
+
+    <TextView
+        android:layout_below="@+id/imsg"
+        android:id="@+id/itomsg"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/MidnightBlue"
+        />
+
+    <Button
+        android:id="@+id/isendEmailbtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/itomsg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonblue"
+        android:text="Send Email Notification"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/isendhomebtn"
+        android:layout_below="@id/isendEmailbtn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonblue"
+        android:text="Go to Home"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

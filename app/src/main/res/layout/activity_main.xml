@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MidnightBlue"
+    tools:context=".MainActivity">
+
+
+
+   <ImageView
+       android:id="@+id/maimg"
+       android:layout_width="300dp"
+       android:layout_height="200dp"
+       android:src="@drawable/ecrowdsplash"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/matvslgn"
+        android:layout_below="@+id/maimg"
+        android:layout_marginTop="5dp"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:text="Where Start-ups Meet Investors"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/White"
+        android:textAlignment="center"/>
+
+</RelativeLayout>

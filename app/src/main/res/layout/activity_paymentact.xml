@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paymentact">
+
+
+    <TextView
+        android:id="@+id/tvconfirmorder"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Confirm Order"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:textAlignment="center"
+        android:background="@color/MidnightBlue"/>
+
+
+    <TextView
+        android:id="@+id/orderamount"
+        android:layout_below="@+id/tvconfirmorder"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="amount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/Black"
+        />
+
+
+    <TextView
+        android:id="@+id/orderinterest"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="interest rate"
+        android:layout_below="@+id/orderamount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Black"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/ordertenure"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="tenure"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/orderinterest"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Black"
+        />
+
+    <TextView
+        android:id="@+id/ordercompound"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="amount after maturity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Black"
+        android:textAlignment="center"
+        android:layout_below="@+id/ordertenure"
+        />
+
+    <Button
+        android:id="@+id/startpayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/MidnightBlue"
+        android:text="Start Payment"
+        android:layout_below="@+id/ordercompound"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

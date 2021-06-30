@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="122dp"
+    android:background="@color/MidnightBlue">
+
+
+    <ImageView
+        android:id="@+id/order_image"
+        android:layout_width="100dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/order_image"
+        android:background="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/compname"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    <TextView
+    android:id="@+id/tv_tenureSlog"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+    android:text=" Tenure in Years:"
+    android:textColor="@color/cardview_light_background"
+    android:textSize="13dp"
+    android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_interestSlog"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_tenureSlog"
+        android:layout_marginLeft="103dp"
+        android:text="   Interest Rate:"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_tenure_db"
+        android:layout_below="@+id/tvp"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_interest_db"
+        android:layout_below="@+id/tv_tenure_db"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:text=" Company Name"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/slogancompnae"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:text="    Investment:"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvp"
+        android:layout_below="@+id/compname"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="13dp"
+
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+

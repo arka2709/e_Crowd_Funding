@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MidnightBlue"
+    tools:context=".requestCompanyInfo">
+
+    <ImageView
+        android:id="@+id/req_imgsinglview_info"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:scaleType="fitXY"
+        android:src="@drawable/startact" />
+
+    <TextView
+        android:id="@+id/req_txt_compname"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/req_imgsinglview_info"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Company Name:"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/req_tvcopname_info"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/req_imgsinglview_info"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/req_tvcompdesc_info"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/req_tvcopname_info"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/req_sloginterest"
+        android:layout_width="90dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/req_tvcompdesc_info"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text=" Interest Rate:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_txtprice"
+        android:layout_width="80dp"
+        android:layout_height="28dp"
+        android:layout_below="@id/req_tvcompdesc_info"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Fund Price:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_tvprice"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/req_tvcompdesc_info"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_tvinteres"
+        android:layout_width="106dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/req_tvcompdesc_info"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_txtfundtargt"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_tvinteres"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Fund Target:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_fundtg"
+        android:layout_width="109dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_tvinteres"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/req_txttenure"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_tvinteres"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text="       Tenure:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+
+    <TextView
+        android:id="@+id/req_fundduration"
+        android:layout_width="106dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_tvinteres"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/cardview_light_background"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnapprove"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/req_tvcompdesc_info"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@android:drawable/checkbox_on_background"
+        android:drawablePadding="@dimen/cardview_compat_inset_shadow"
+        android:text="Approve"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/btnReject"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/req_tvcompdesc_info"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/button_background"
+        android:drawableLeft="@android:drawable/ic_delete"
+        android:drawablePadding="@dimen/cardview_compat_inset_shadow"
+        android:text="Reject"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/req_docs"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_background"
+        android:layout_below="@+id/req_email_Space"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Legal Documents"
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/req_phone"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_txtfundtargt"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text=" Phone No:"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_phSpace"
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_fundtg"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_email"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_phone"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="   Email:"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/req_email_Space"
+        android:layout_width="290dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/req_phSpace"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background" />
+
+</RelativeLayout>

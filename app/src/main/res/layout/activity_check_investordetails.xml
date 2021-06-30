@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkInvestordetails">
+
+    <TextView
+        android:id="@+id/txttvDetals"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Investor Account Details"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:textColor="@color/White"
+        android:background="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/texttvName"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="  Investor Name:"
+        android:textColor="@color/MidnightBlue"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/txttvDetals"/>
+
+    <TextView
+        android:id="@+id/texttvNamespace"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"
+        android:layout_below="@id/txttvDetals"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/texttvbank"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text=" Bank Account No:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvName"/>
+
+    <TextView
+        android:id="@+id/texttvbankspace"
+        android:layout_below="@+id/texttvNamespace"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/texttvIFSC"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="    IFSC Code:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvbank"/>
+
+    <TextView
+        android:id="@+id/texttvIFSCspace"
+        android:layout_below="@+id/texttvbankspace"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/texttvphone"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text=" Investor Phone No:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvIFSC"/>
+
+    <TextView
+        android:id="@+id/texttvphonespace"
+        android:layout_below="@+id/texttvIFSCspace"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/texttvemail"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="  Investor Email:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvphone"/>
+
+    <TextView
+        android:id="@+id/texttvemailspace"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/texttvphonespace"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/texttvtotalinvstmnt"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text=" Total Investment:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvemail"/>
+
+    <TextView
+        android:id="@+id/texttvtotalinvstmntspace"
+        android:layout_below="@+id/texttvemailspace"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/texttvinterestofrd"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text=" Interest Offered:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvtotalinvstmnt"/>
+
+    <TextView
+        android:id="@+id/texttvinterestofrdspace"
+        android:layout_below="@+id/texttvtotalinvstmntspace"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/texttvamtpbl"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="  Total Payable:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvinterestofrd"/>
+
+    <TextView
+        android:id="@+id/texttvamtpblspace"
+        android:layout_below="@+id/texttvinterestofrdspace"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:id="@+id/texttvdate"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text=" Payment Due Date:"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp"
+        android:layout_below="@+id/texttvamtpbl"/>
+
+    <TextView
+        android:id="@+id/texttvdatespace"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/texttvamtpblspace"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/MidnightBlue"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>
